@@ -1,0 +1,248 @@
+*{
+margin: 0%;
+padding: 0%;
+
+
+}
+.one{
+    background-image:  url(./images.jpeg);
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one .logo img{
+    width: 280px;
+    margin: 20px 20px;
+    float: left;
+}
+nav{
+    display: inline-block;
+    float: right;
+    top: 30px;
+}
+nav p button{
+    float: right;
+    display: inline-block;
+    margin: 10px 10px;
+    top: 30px;
+    margin: 30px 8px 0px 0px; 
+}
+nav p{
+    font-size: 38px;
+    font-weight: 500;
+    float: right;
+    display: inline-block;
+    top: 30px;
+    color: white;
+    margin: 30px 8px 0px 0px; 
+}
+nav .cu{
+    width: 146px;
+    cursor: pointer;
+    height: 42px;
+    background-color: #F75800;
+    font-size: 17px;
+    color: white;
+    margin: 30px 8px 0px 0px;
+    
+}
+nav .cu :hover{
+    background-color: transparent;
+}
+nav .cl{
+    height: 42px;
+    width: 146px;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    margin: 30px 8 px 0px 0px; 
+    cursor: pointer;
+}
+nav .cl :hover{
+    background-color: dodgerblue;
+}
+.one .banner{
+   display: inline-block;
+   top: 50%;
+   margin-top: 250px;
+   margin-left: 190px;
+   align-items: center;
+}
+.one .banner h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.one .banner h4{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+.one .banner a{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+    border: 4px solid #f45900;
+    margin-left: 135px;
+    margin-top: 15px;
+}
+.smallWrapper {
+    width: 92%;
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 95px 0px 95px 0px;
+}
+.introLeft img {
+    width: 100%;
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+.introRight {
+    width: 64%;
+    float: right;
+    border-left: 5px solid #FA5700;
+    padding-left: 4%;
+    margin-bottom: 40px;
+}
+h4 {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 300;}
+   .icon1 {
+        width: 29%;
+        border: 1px solid #BBBBBB;
+        float: left;
+        margin-right: 6%;
+        margin-top: 50px;
+        padding: 38px 0px 15px 0px;
+        font-size: 19px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .icon1 img {
+        width: 60%;
+        padding-bottom: 20px;
+    }
+    .icon2 {
+        width: 29%;
+        border: 1px solid #BBBBBB;
+        float: left;
+        margin-top: 50px;
+        margin-right: 6%;
+        padding: 38px 0px 15px 0px;
+        font-size: 19px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .icon2 img {
+        width: 60%;
+        padding-bottom: 20px;
+    }
+    .icon3 {
+        width: 29%;
+        border: 1px solid #BBBBBB;
+        margin-top: 50px;
+        float: left;
+        padding: 38px 0px 15px 0px;
+        font-size: 19px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .icon3 img {
+        width: 60%;
+        padding-bottom: 20px;
+    }
+.footer1{
+    width: 92%;
+    max-width: 900px; 
+    margin: 0px auto;
+    padding: 0px 90px 0px 90px ;
+    float: inline-start;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.footer1 .cma{
+    display: block;
+    margin-left: 200px;
+}
+.footer1 .heading{
+    display: block;
+    margin-left: 100px;
+}
+.footer1 .para{
+    display: block;
+    margin-right: 300px;
+}
+.footer {
+    display: block;
+    width: 100%;
+    background: #122C54;
+    color: #ffffff;
+    font-size: 21px;
+    margin-top: 500px;
+    line-height: 30px; 
+    height: 500px;
+
+}
+.footerWrapper {
+    width: 92%;
+    max-width: 720px;
+    margin: 0px auto;
+    padding: 95px 0px 100px 0px;
+}
+.footerLeft {
+    width: 36%;
+    float: left;
+}
+.footerLeft img {
+    width: 100%;
+    padding-top: 10px;
+}
+.footerNav {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+}
+ol, ul {
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+.footerNav ul li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.footerRight {
+    width: 50%;
+    float: right;
+    padding-left: 7%;
+    border-left: 1px solid #2A72BA;
+}
+h3 {
+    font-size: 43px;
+    line-height: 48px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.orangeText {
+    color: #F75800;
+}
+.footerWrapper a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.space {
+    width: 100%;
+    clear: both;
+}
